@@ -1,0 +1,16 @@
+D:\OCBC NISP\Pertemuan 1\Sesi 1\Hello World (Dotnet)\bin\Debug\net5.0\Sesi 1.exe
+D:\OCBC NISP\Pertemuan 1\Sesi 1\Hello World (Dotnet)\bin\Debug\net5.0\Sesi 1.deps.json
+D:\OCBC NISP\Pertemuan 1\Sesi 1\Hello World (Dotnet)\bin\Debug\net5.0\Sesi 1.runtimeconfig.json
+D:\OCBC NISP\Pertemuan 1\Sesi 1\Hello World (Dotnet)\bin\Debug\net5.0\Sesi 1.runtimeconfig.dev.json
+D:\OCBC NISP\Pertemuan 1\Sesi 1\Hello World (Dotnet)\bin\Debug\net5.0\Sesi 1.dll
+D:\OCBC NISP\Pertemuan 1\Sesi 1\Hello World (Dotnet)\bin\Debug\net5.0\ref\Sesi 1.dll
+D:\OCBC NISP\Pertemuan 1\Sesi 1\Hello World (Dotnet)\bin\Debug\net5.0\Sesi 1.pdb
+D:\OCBC NISP\Pertemuan 1\Sesi 1\Hello World (Dotnet)\obj\Debug\net5.0\Sesi 1.csproj.AssemblyReference.cache
+D:\OCBC NISP\Pertemuan 1\Sesi 1\Hello World (Dotnet)\obj\Debug\net5.0\Sesi 1.GeneratedMSBuildEditorConfig.editorconfig
+D:\OCBC NISP\Pertemuan 1\Sesi 1\Hello World (Dotnet)\obj\Debug\net5.0\Sesi 1.AssemblyInfoInputs.cache
+D:\OCBC NISP\Pertemuan 1\Sesi 1\Hello World (Dotnet)\obj\Debug\net5.0\Sesi 1.AssemblyInfo.cs
+D:\OCBC NISP\Pertemuan 1\Sesi 1\Hello World (Dotnet)\obj\Debug\net5.0\Sesi 1.csproj.CoreCompileInputs.cache
+D:\OCBC NISP\Pertemuan 1\Sesi 1\Hello World (Dotnet)\obj\Debug\net5.0\Sesi 1.dll
+D:\OCBC NISP\Pertemuan 1\Sesi 1\Hello World (Dotnet)\obj\Debug\net5.0\ref\Sesi 1.dll
+D:\OCBC NISP\Pertemuan 1\Sesi 1\Hello World (Dotnet)\obj\Debug\net5.0\Sesi 1.pdb
+D:\OCBC NISP\Pertemuan 1\Sesi 1\Hello World (Dotnet)\obj\Debug\net5.0\Sesi 1.genruntimeconfig.cache
