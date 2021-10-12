@@ -1,0 +1,23 @@
+Link GitHub : https://github.com/matthewsutanto/OCBC-H8.git
+
+Cara kerja program :
+
+1. Pilih jawaban dari soal yang akan dilihat (diinput dengan angka dari range 1-8).
+2. Jika yang dipilih nomor 1, maka akan diminta menginput range yang diinginkan.
+3. Kemudian akan muncul bentuk segitiga alfabet berdasarkan range yang diinginkan.
+4. Jika yang dipilih nomor 2, maka akan diminta menginput range yang diinginkan.
+5. Kemudian akan muncul bentuk segitiga angka berdasarkan range yang diinginkan.
+6. Jika yang dipilih nomor 3, maka akan diminta menginput nilai yang ingin diketahui faktorianya.
+7. Kemudian akan muncul nilai faktorial yang diinput.
+8. Jika yang dipilih nomor 4, maka akan diminta menginput string atau angka yang ingin dibalik.
+9. Kemudian akan muncul hasil inverse dari string atau angka yang dibalik.
+10. Jika yang dipilih nomor 5, maka akan diminta menginput angka yang ingin diubah ke string.
+11. Kemudian akan muncul hasil string dari angka yang diminta.
+12. Jika yang dipilih nomor 6, maka akan diminta menginput string atau angka yang ingin dicek apakah
+merupakan palindrom atau bukan.
+13. Jika palindrom, maka akan muncul keterangan bahwa kata atau angka ini palindrom dan jika tidak akan
+diberitau juga jika input bukan palindrom.
+14. Jika yang dipilih nomor 7, maka akan muncul informasi data diri dari pembuat program.
+15. Setiap kali selesai melakukan suatu nomor, maka akan ditanya apakah akah lanjut atau tidak, jika
+lanjut silahkan input Y, jika tidak silahkan input n.
+16. Jika ingin berhenti dari program, pilih nomor 8.

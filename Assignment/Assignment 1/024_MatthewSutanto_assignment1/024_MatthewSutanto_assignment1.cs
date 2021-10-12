@@ -24,6 +24,7 @@ public class Assignmen1
             switch (pilih)
             {
                 case 1:{
+                    Console.Write("Anda Memilih Soal Nomor 1.");
                     Console.Write("Enter Range: ");
                     int range = int.Parse(Console.ReadLine());
                     char alpha = 'A';
@@ -46,6 +47,7 @@ public class Assignmen1
                     break;}
 
                 case 2:{
+                    Console.Write("Anda Memilih Soal Nomor 2.");
                     Console.Write("Enter Range: ");
                     int range = int.Parse(Console.ReadLine());
                     for(i=1; i<=range; i++) {
@@ -66,6 +68,7 @@ public class Assignmen1
                     break;}
 
                 case 3:{
+                    Console.Write("Anda Memilih Soal Nomor 3.");
                     Console.Write("Enter Value: ");
                     int value = int.Parse(Console.ReadLine());
                     int hasil = 1;
@@ -76,6 +79,7 @@ public class Assignmen1
                     break;}
 
                 case 4:{
+                    Console.Write("Anda Memilih Soal Nomor 4.");
                     Console.Write("Enter string : ");
                     string kata = Console.ReadLine();
                     i=0;
@@ -93,8 +97,16 @@ public class Assignmen1
                     break;}
 
                 case 5:{
+                    Console.Write("Anda Memilih Soal Nomor 5.");
                     Console.Write("Enter number: ");
                     string angka2 = Console.ReadLine();
+                    int parsed;
+                    while (!int.TryParse(angka2, out parsed))
+                    {
+                        Console.WriteLine("Please enter a number!");
+                        Console.Write("Enter number: ");
+                        angka2 = Console.ReadLine();
+                    }
                     char temp;
                     for(i=0; i<angka2.Length; i++) {
                         temp = angka2[i];
@@ -137,6 +149,7 @@ public class Assignmen1
                     break;}
 
                 case 6:{
+                    Console.Write("Anda Memilih Soal Nomor 6.");
                     Console.Write("Enter string : ");
                     string kata = Console.ReadLine();
                     i=0;
@@ -172,11 +185,24 @@ public class Assignmen1
                     break;}
             }
 
-            Console.WriteLine("Mau Lanjut ?(y/n) :");
-            string lanjut = Console.ReadLine();
+            bool cekLanjut = false;
+            while(!cekLanjut) 
+            {
+                Console.WriteLine("Mau Lanjut ?(y/n) :");
+                string lanjut = Console.ReadLine();
 
-            if(lanjut=="n") {
-                cek=true;
+                if(lanjut=="n" || lanjut=="Y")
+                {
+                    cekLanjut =  true;
+                }else 
+                {
+                    Console.WriteLine("Input yang dimasukkan salah, coba lagi");
+                }
+
+                if(lanjut=="n") 
+                {
+                    cek = true;
+                }
             }
         }
     }
