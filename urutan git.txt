@@ -1,0 +1,7 @@
+Urutan git :
+1. buka file explorer > menuju folder project sesi 3
+2. buka cmd atau tekan di keyboard shift + klik kanan
+3. buka GitHub,com
+https://github.com/matthewsutanto/OCBC-H8.git
+
+git remote set-url origin https://github.com/matthewsutanto/OCBC-H8.git
