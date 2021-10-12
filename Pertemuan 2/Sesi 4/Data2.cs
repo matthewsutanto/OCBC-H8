@@ -1,6 +1,6 @@
 using System;
 
-public class Coba1
+public class Data2
 {
     public static void Main(string[] args)
     {   
