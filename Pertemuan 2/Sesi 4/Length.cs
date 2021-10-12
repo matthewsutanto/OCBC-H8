@@ -11,27 +11,11 @@ public class Length
             angka[i] = i*1;
         }
 
-        for(int i=0; i<3;i++) {
-            jagged[1][i] = i;
+        Console.Write("Berikut adalah array angka: ");
+        for(int i=0; i < angka.Length; i++) {
+            Console.Write(angka[i] + " ");
         }
 
-        for(int i=0; i<5;i++) {
-            jagged[2][i] = i;
-        }
-
-        for(int i=0; i<4;i++) {
-            Console.Write(jagged[0][i]+" ");
-        }
-        Console.WriteLine();
-
-        for(int i=0; i<3;i++) {
-            Console.Write(jagged[1][i]+" ");
-        }
-        Console.WriteLine();
-        
-        for(int i=0; i<5;i++) {
-            Console.Write(jagged[2][i]+" ");
-        }
         Console.WriteLine();
         
     }

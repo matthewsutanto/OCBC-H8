@@ -27,8 +27,9 @@ alamat : bandar lampung
 pilih menu soal
 1. soal a (disingkat aja untuk deskripsi soalnya)
 2. soal b (disingkat aja untuk deskripsi soalnya)
-6  about me
-7. exit
+6. katak
+7. about me
+8. exit
 
 jika pilih 1 akan nampil jawaban soal a, sample :
 anda memilih soal a
