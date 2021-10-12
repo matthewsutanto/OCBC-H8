@@ -24,7 +24,7 @@ public class Assignmen1
             switch (pilih)
             {
                 case 1:{
-                    Console.Write("Anda Memilih Soal Nomor 1.");
+                    Console.WriteLine("Anda Memilih Soal Nomor 1.");
                     Console.Write("Enter Range: ");
                     int range = int.Parse(Console.ReadLine());
                     char alpha = 'A';
@@ -47,7 +47,7 @@ public class Assignmen1
                     break;}
 
                 case 2:{
-                    Console.Write("Anda Memilih Soal Nomor 2.");
+                    Console.WriteLine("Anda Memilih Soal Nomor 2.");
                     Console.Write("Enter Range: ");
                     int range = int.Parse(Console.ReadLine());
                     for(i=1; i<=range; i++) {
@@ -68,7 +68,7 @@ public class Assignmen1
                     break;}
 
                 case 3:{
-                    Console.Write("Anda Memilih Soal Nomor 3.");
+                    Console.WriteLine("Anda Memilih Soal Nomor 3.");
                     Console.Write("Enter Value: ");
                     int value = int.Parse(Console.ReadLine());
                     int hasil = 1;
@@ -79,7 +79,7 @@ public class Assignmen1
                     break;}
 
                 case 4:{
-                    Console.Write("Anda Memilih Soal Nomor 4.");
+                    Console.WriteLine("Anda Memilih Soal Nomor 4.");
                     Console.Write("Enter string : ");
                     string kata = Console.ReadLine();
                     i=0;
@@ -97,7 +97,7 @@ public class Assignmen1
                     break;}
 
                 case 5:{
-                    Console.Write("Anda Memilih Soal Nomor 5.");
+                    Console.WriteLine("Anda Memilih Soal Nomor 5.");
                     Console.Write("Enter number: ");
                     string angka2 = Console.ReadLine();
                     int parsed;
@@ -149,7 +149,7 @@ public class Assignmen1
                     break;}
 
                 case 6:{
-                    Console.Write("Anda Memilih Soal Nomor 6.");
+                    Console.WriteLine("Anda Memilih Soal Nomor 6.");
                     Console.Write("Enter string : ");
                     string kata = Console.ReadLine();
                     i=0;
@@ -188,7 +188,7 @@ public class Assignmen1
             bool cekLanjut = false;
             while(!cekLanjut) 
             {
-                Console.WriteLine("Mau Lanjut ?(y/n) :");
+                Console.WriteLine("Mau Lanjut ?(Y/n) :");
                 string lanjut = Console.ReadLine();
 
                 if(lanjut=="n" || lanjut=="Y")
