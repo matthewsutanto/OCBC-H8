@@ -4,13 +4,11 @@ public class Length
 {
     public static void Main(string[] args)
     {   
-        int[][] jagged = new int[3][];
-        jagged[0] = new int[4];
-        jagged[1] = new int[3];
-        jagged[2] = new int[5];
+        int[] angka = new int[10];
+        Console.WriteLine("Panjang array angka adalah "+angka.Length);
 
-        for(int i=0; i<4;i++) {
-            jagged[0][i] = i;
+        for(int i=0; i<angka.Length;i++) {
+            angka[i] = i*1;
         }
 
         for(int i=0; i<3;i++) {

@@ -1,0 +1,37 @@
+assignment 1 :
+
+format tugas assignment 1
+---
+
+folder kodepeserta_namapeserta_assignment1
+- nama file kodepeserta_namapeserta_assignment1.cs
+- panduan penggunaan.txt 
+  - terdapat cara pakai aplikasi
+  - terdapat link github (push ke github)
+di zipkan kasih nama kodepeserta_namapeserta_assignment1.cs
+sample 001_arifsetiawan_assignment1.zip
+
+upload ke google class room dan kode.id
+
+buat 1 file project assigment 1
+di dalam nya terdapat jawaban 5 soal
+
+sample
+---
+selamat datang di assigment 1
+
+nama lengkap saya : arif
+nomor peserta : 001 (lengkap)
+alamat : bandar lampung
+
+pilih menu soal
+1. soal a (disingkat aja untuk deskripsi soalnya)
+2. soal b (disingkat aja untuk deskripsi soalnya)
+6  about me
+7. exit
+
+jika pilih 1 akan nampil jawaban soal a, sample :
+anda memilih soal a
+jawaban soal a adalah (isi jawban disini)
+
+kembali kemenu awal ? jawab ya > masuk kemenu awal
