@@ -177,7 +177,7 @@ public class Assignmen1
                 case 7:{
                     Console.WriteLine("Nama Lengkap Saya : Matthew Sutanto");
                     Console.WriteLine("Nomor Peserta : FSDO001ONL024");
-                    Console.WriteLine("Nomor Peserta : Taman Cibaduyut Indah (Bandung)");
+                    Console.WriteLine("Alamat  : Taman Cibaduyut Indah (Bandung)");
                     break;}
 
                 case 8:{
