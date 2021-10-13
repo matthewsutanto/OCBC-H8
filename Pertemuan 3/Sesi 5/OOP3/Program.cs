@@ -49,7 +49,7 @@ namespace OOP3
 
                         pesawat.terbang();
 
-                        pesawatT.terbang();    
+                        pesawatT.terbangT();    
                         break;}
                     
                     case 2:{
