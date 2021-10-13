@@ -61,3 +61,10 @@ SELECT * FROM tbData_staff tds LEFT JOIN tbStaffoutsource tso ON tds.joindate=ts
 
 --M
 SELECT * FROM tbData_staff tds FULL JOIN tbStaffoutsource tso ON tds.joindate=tso.joindate;
+
+--coba-coba
+SELECT nama, alamat, handphone FROM (
+	SELECT nama, alamat, handphone, joindate FROM tbData_staff
+	UNION ALL
+	SELECT nama, alamat, handphone FROM tbStaffoutsource
+) AS namasaya,alamatsaya, handphonesaya
