@@ -1,0 +1,16 @@
+tb_productlines
+---
+*productLine int(11) auto_increment primary key
+textDescription text not null
+htmlDescription text not null
+image varchar(255) not null
+
+
+panduan soal
+--
+buat database >  menggunakan query
+buat tabel > menggunakan query
+buat store data seperti di soal > menggunakan query
+select data > menggunakan query (terdapat join)
+
+>> bisa improve <<

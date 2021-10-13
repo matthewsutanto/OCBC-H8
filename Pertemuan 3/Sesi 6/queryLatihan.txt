@@ -1,0 +1,63 @@
+--A
+CREATE database db_staff;
+use db_staff;
+--B
+CREATE table tbData_staff(
+	id_staff int identity(1,1),
+	nama varchar(50),
+	alamat varchar(200),
+	handphone varchar(15)
+);
+--C,D
+INSERT INTO tbData_staff VALUES('Andi', 'Bandung','0214');
+INSERT INTO tbData_staff VALUES('Budi', 'Jakarta','0224');
+INSERT INTO tbData_staff VALUES('Roni', 'Bandung','0452');
+INSERT INTO tbData_staff VALUES('Jake', 'Surabaya','4324');
+INSERT INTO tbData_staff VALUES('Joni', 'London','5422');
+
+INSERT INTO tbData_staff VALUES('Soni', 'Bandung','0214');
+INSERT INTO tbData_staff VALUES('Gian', 'Jakarta','0224');
+INSERT INTO tbData_staff VALUES('Andre', 'Bandung','0452');
+INSERT INTO tbData_staff VALUES('Ronaldo', 'Surabaya','4324');
+INSERT INTO tbData_staff VALUES('Messi', 'London','5422');
+
+--E
+ALTER table tbData_staff ADD joindate date;
+--E
+UPDATE tbData_staff set joindate ='08-20-2020' WHERE nama='Andre';
+
+--F
+select top 3 * from tbData_staff;
+--G
+select top 2 * from tbData_staff;
+
+SELECT * FROM tbData_staff;
+
+--H
+CREATE table tbStaffoutsource(
+	id_staff int identity(1,1),
+	nama varchar(50),
+	alamat varchar(200),
+	handphone varchar(15),
+	joindate date
+);
+
+--I
+INSERT INTO tbStaffoutsource VALUES('Jiko', 'Bandung','0214', '10-08-2021');
+INSERT INTO tbStaffoutsource VALUES('Roma', 'Jakarta','0224', '10-10-2021');
+INSERT INTO tbStaffoutsource VALUES('Ardi', 'Bandung','0452', '08-20-2021');
+INSERT INTO tbStaffoutsource VALUES('Beckham', 'Surabaya','4324', '11-08-2020');
+INSERT INTO tbStaffoutsource VALUES('Joni', 'London','5422', '10-12-2021');
+
+--J
+SELECT * FROM tbData_staff tds JOIN tbStaffoutsource tso ON tds.joindate=tso.joindate;
+
+--K
+SELECT * FROM tbData_staff tds RIGHT JOIN tbStaffoutsource tso ON tds.joindate=tso.joindate 
+WHERE tds.nama = tso.nama AND tds.alamat = tso.alamat AND tds.handphone = tso.handphone AND tds.joindate = tso.joindate;
+
+--L
+SELECT * FROM tbData_staff tds LEFT JOIN tbStaffoutsource tso ON tds.joindate=tso.joindate;
+
+--M
+SELECT * FROM tbData_staff tds FULL JOIN tbStaffoutsource tso ON tds.joindate=tso.joindate;

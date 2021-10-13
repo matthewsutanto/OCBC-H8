@@ -92,3 +92,17 @@ CREATE TABLE orderdetails(
 	FOREIGN KEY (orderNumber) REFERENCES orders(orderNumber),
 	FOREIGN KEY (productCode) REFERENCES products(productCode)
 );
+
+INSERT INTO offices VALUES("000001","Bandung","022-540142","TCI Blok A Nomor 32", "TCI Blok B Nomor 45", "Jawa Barat", "Indonesia", "42423", "Jawa");
+INSERT INTO offices VALUES("000002","Jakarta","021-540128","Jalan kemayoran nomor 2", "Tanjung Duren Nomor 28", "DKI Jakarta", "Indonesia", "52622", "Jawa");
+
+INSERT INTO employees(employeeNumber, lastName, firstName, extension, email, officeCode, jobTitle) VALUES("C000001", "Ronaldo", "Cristiano", "tst", "ronaldo@gmail.com", "000001", "Manager");
+INSERT INTO employees VALUES("C000002", "Andi", "Rudi", "tst", "rudi@gmail.com", "000001", "C000001", "Staff Keuangan");
+INSERT INTO employees VALUES("C000003", "Sutomo", "Roni", "tst", "roni@gmail.com", "000001", "C000001", "Staff IT");
+INSERT INTO employees VALUES("C000004", "Vinales", "Lorey", "tst", "lorey@gmail.com", "000001", "C000001", "Staf HRD");
+INSERT INTO employees VALUES("C000005", "Korpus", "Wayne", "tst", "wayne@gmail.com", "000001", "C000001", "Staff Kasir");
+INSERT INTO employees(employeeNumber, lastName, firstName, extension, email, officeCode, jobTitle) VALUES("C000006", "Messi", "Lionel", "tst", "messi@gmail.com", "000002", "Manager");
+INSERT INTO employees VALUES("C000002", "Andi", "Rudi", "tst", "rudi@gmail.com", "000002", "C000006", "Staff Keuangan");
+INSERT INTO employees VALUES("C000003", "Sutomo", "Roni", "tst", "roni@gmail.com", "000002", "C000006", "Staff IT");
+INSERT INTO employees VALUES("C000004", "Vinales", "Lorey", "tst", "lorey@gmail.com", "000002", "C000006", "Staf HRD");
+INSERT INTO employees VALUES("C000005", "Korpus", "Wayne", "tst", "wayne@gmail.com", "000002", "C000006", "Staff Kasir");
