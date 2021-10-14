@@ -1,7 +1,7 @@
 Format Tugas
 
 Buat Folder KodePeserta_NamaPeserta_Assigment2
-Buat File Query_Assigment.txt > DISI QUERY NYA
+Buat File Query_Assigment.PDF > DISI QUERY NYA
 Export File Query_SQL_EXPORT.sql
 
 NamaPeserta   : NamaAnda
