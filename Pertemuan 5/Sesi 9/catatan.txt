@@ -1,0 +1,22 @@
+yang penting ketika ingin membuat webapi dari awal :
+Folder Controllers
+RouteConfig.cs
+Global.assax.cs
+
+1.Pertama yang harus dibuat adalah db :
+2. CREATE DATABASE kantor;
+use kantor;
+
+CREATE TABLE employee(
+	id int PRIMARY KEY,
+	nama varchar(25),
+	jenis_kelamin varchar(20),
+	alamat varchar(50)
+);
+INSERT INTO employee VALUES(1, 'Matthew', 'Laki-laki', 'bandung');
+INSERT INTO employee VALUES(2, 'Linda', 'Perempuan', 'bandung');
+INSERT INTO employee VALUES(3, 'Andi', 'Laki-laki', 'bandung');
+
+3. terus bikin folder models dan controllers;
+
+4. selanjutnya bikin model Employee item.
