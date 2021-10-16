@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\OCBC NISP\\Pertemuan 5\\Sesi 10\\TodoAppWithJwt\\TodoApp\\TodoApp.csproj": {}
+    "D:\\OCBC NISP\\Assignment\\Assignment 3\\MovieApp\\MovieApp.csproj": {}
   },
   "projects": {
-    "D:\\OCBC NISP\\Pertemuan 5\\Sesi 10\\TodoAppWithJwt\\TodoApp\\TodoApp.csproj": {
+    "D:\\OCBC NISP\\Assignment\\Assignment 3\\MovieApp\\MovieApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\OCBC NISP\\Pertemuan 5\\Sesi 10\\TodoAppWithJwt\\TodoApp\\TodoApp.csproj",
-        "projectName": "TodoApp",
-        "projectPath": "D:\\OCBC NISP\\Pertemuan 5\\Sesi 10\\TodoAppWithJwt\\TodoApp\\TodoApp.csproj",
+        "projectUniqueName": "D:\\OCBC NISP\\Assignment\\Assignment 3\\MovieApp\\MovieApp.csproj",
+        "projectName": "MovieApp",
+        "projectPath": "D:\\OCBC NISP\\Assignment\\Assignment 3\\MovieApp\\MovieApp.csproj",
         "packagesPath": "C:\\Users\\grego\\.nuget\\packages\\",
-        "outputPath": "D:\\OCBC NISP\\Pertemuan 5\\Sesi 10\\TodoAppWithJwt\\TodoApp\\obj\\",
+        "outputPath": "D:\\OCBC NISP\\Assignment\\Assignment 3\\MovieApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\grego\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,27 +40,15 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
-            "Microsoft.AspNetCore.Authentication.JwtBearer": {
-              "target": "Package",
-              "version": "[5.0.11, )"
-            },
-            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[5.0.11, )"
-            },
-            "Microsoft.AspNetCore.Identity.UI": {
-              "target": "Package",
-              "version": "[5.0.11, )"
-            },
-            "Microsoft.EntityFrameworkCore.Sqlite": {
-              "target": "Package",
-              "version": "[5.0.11, )"
-            },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
               "version": "[5.0.11, )"
+            },
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.0.26, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",

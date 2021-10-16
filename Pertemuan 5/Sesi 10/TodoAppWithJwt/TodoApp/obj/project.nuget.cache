@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "lgW5pp2WL4wAvs9oGhhxPkoZGpfvjrF/aVO8dz0t7BBtKZAO3qD+AxQu7Z3nB1WprNY//CQmufd6zNy2MKpJjg==",
+  "dgSpecHash": "WRU7LfezZFjEyhd8JPpSRKndrbNyYnWTDf2bPaJ0G9QmfhW9H49NKNVKn730ImPlPur5ulwNRbw6lvAUt80D7g==",
   "success": true,
-  "projectFilePath": "D:\\OCBC NISP\\Pertemuan 5\\Sesi 10\\TodoApp2\\TodoApp\\TodoApp.csproj",
+  "projectFilePath": "D:\\OCBC NISP\\Pertemuan 5\\Sesi 10\\TodoAppWithJwt\\TodoApp\\TodoApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\grego\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\grego\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\5.0.11\\microsoft.aspnetcore.authentication.jwtbearer.5.0.11.nupkg.sha512",
