@@ -15,6 +15,7 @@ using TodoApp.Models.DTOs.Request;
 using TodoApp.Models.DTOs.Responses;
 using TodoApp.Data;
 using TodoApp.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace TodoApp.Controllers
 {
@@ -233,7 +234,7 @@ namespace TodoApp.Controllers
                      };
                  }
 
-                var storedToken = _apiDbContext.RefreshTokens.FirstOrDefault(x => x.Token == tokenRequest.RefreshToken);
+                var storedToken = await _apiDbContext.RefreshTokens.FirstOrDefaultAsync(x => x.Token == tokenRequest.RefreshToken);
 
                  if(storedToken == null)
                  {
