@@ -8,10 +8,11 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using MovieApp.Models;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 
 namespace MovieApp.Data
 {
-    public class MovieContext
+    public class MovieContext : IdentityDbContext
     {
         public string ConnectionString { get; set; }
 
