@@ -63,10 +63,8 @@ namespace TodoApp.Controllers
                 if(isCreated.Succeeded)
                 {
                     var jwtToken = await GenerateJwtToken(newUser);
-                    object[] newArray = new object[2];
-                    newArray[0] = "Berhasil register";
-                    newArray[1] = jwtToken;
-                    return Ok(newArray);
+
+                    return Ok(jwtToken);
                 } else {
                     return BadRequest(new RegistrationResponse(){
                         Errors = isCreated.Errors.Select(x => x.Description).ToList(),
@@ -192,10 +190,8 @@ namespace TodoApp.Controllers
                 }
 
                 var jwtToken = await GenerateJwtToken(existingUser);
-                object[] newArray = new object[2];
-                newArray[0] = "Berhasil Login";
-                newArray[1] = jwtToken;
-                return Ok(newArray);
+
+                return Ok(jwtToken);
             }
 
             return BadRequest(new RegistrationResponse() {

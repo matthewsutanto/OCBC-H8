@@ -1,4 +1,3 @@
-using System;
 using System.Net;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
@@ -50,11 +49,8 @@ namespace TodoApp.Controllers
 
             if(item == null)
                 return NotFound();
-            
-            object[] newArray = new object[2];
-            newArray[0] = "Berhasil mendapatkan item dengan ID = "+item.Id;
-            newArray[1] = item;
-            return Ok(newArray);
+
+            return Ok(item);
         }
 
         [HttpPut("{id}")]
@@ -73,11 +69,8 @@ namespace TodoApp.Controllers
             existItem.Done = item.Done;
 
             await _context.SaveChangesAsync();
-            
-            object[] newArray = new object[2];
-            newArray[0] = "Data berhasil diupdate";
-            newArray[1] = existItem;
-            return Ok(newArray);
+
+            return NoContent();
         }
 
         [HttpDelete("{id}")]
@@ -90,11 +83,8 @@ namespace TodoApp.Controllers
 
             _context.Items.Remove(existItem);
             await _context.SaveChangesAsync();
-            
-            object[] newArray = new object[2];
-            newArray[0] = "Berhasil dihapus";
-            newArray[1] = existItem;
-            return Ok(newArray);   
+
+            return Ok(existItem);   
         }
     }
 }
