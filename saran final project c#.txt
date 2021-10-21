@@ -1,0 +1,16 @@
+1. buildpack Heroku set aspnet dari mas gusti
+2. push project ke GitHub (branch master)
+3, connect project GitHub (deploy manual set branch master)
+
+jika ingin auto deploy pilih branch main
+
+#### Alternatif (via Supabase)
+
+1. Daftar Supabase menggunakan akun GitHub di link -> https://supabase.io
+2. Ikuti instruksi untuk membuat satu database baru di Supabase
+   - Catat password-nya, karena password ini tidak akan ditampilkan pada langkah berikutnya!
+3. Setelah berhasil, ke Settings > Database untuk mengambil URL-nya
+   - Copy URL-nya, lalu ganti `[YOUR_PASSWORD]` pada URL-nya dengan password yang kalian buat sebelumnya
+4. Paste URL yang sudah diubah tadi ke dalam appconfig.json
+5. Deploy seperti biasa
+
