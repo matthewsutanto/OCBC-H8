@@ -46,10 +46,23 @@ heroku container:login
 heroku container:push web -a demo-corewebapi **Belum dipakai
 
 dotnet publish -c Release
-docker build -t demo-corewebapi:dev .
+docker build -t corewebapi:dev .
 
-docker run -d -p 5000:80 --name myapp demo-corewebapi:dev
-docker tag demo-corewebapi:dev registry.heroku.com/demo-corewebapi/web
+docker run -d -p 5000:80 --name myapp corewebapi:dev
+docker tag corewebapi:dev registry.heroku.com/demo-corewebapi-matthew/web
 
-heroku container:push web -a demo-corewebapi
-heroku container:release web -a demo-corewebapi
+heroku container:push web -a demo-corewebapi-matthew
+heroku container:release web -a demo-corewebapi-matthew
+
+cara push ke docker
+1. Buat new project
+2. Pilih .net core web api
+3. centang use docker -> pilih linux
+
+tambah 
+EXPOSE 48719
+EXPOSE 27017
+EXPOSE 5000
+EXPOSE 5001
+di dockerfile
+

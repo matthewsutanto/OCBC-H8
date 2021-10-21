@@ -1,3 +1,4 @@
+using System.Diagnostics;
 using System.Text;
 using System;
 using System.Collections.Generic;
@@ -18,6 +19,7 @@ using TodoApp.Configuration;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.AspNetCore.Identity;
+using MySql.Data.EntityFrameworkCore;
 
 namespace TodoApp
 {
@@ -57,8 +59,8 @@ namespace TodoApp
 
             services.Configure<JwtConfig>(Configuration.GetSection("JwtConfig"));
             services.AddDbContext<ApiDbContext>(options =>
-                options.UseSqlite(
-                    Configuration.GetConnectionString("DefaultConnection")
+                options.UseMySql(
+                    Configuration.GetConnectionString("DefaultConnection"), new MySqlServerVersion(new Version(5, 7, 35))
                 ));
             services.AddControllers();
             services.AddSwaggerGen(c =>
