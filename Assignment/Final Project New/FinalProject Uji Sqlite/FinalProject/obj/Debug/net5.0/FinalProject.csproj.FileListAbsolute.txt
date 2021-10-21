@@ -1,0 +1,151 @@
+D:\OCBC NISP\Assignment\Final Project New\FinalProject\bin\Debug\net5.0\appsettings.Development.json
+D:\OCBC NISP\Assignment\Final Project New\FinalProject\bin\Debug\net5.0\appsettings.json
+D:\OCBC NISP\Assignment\Final Project New\FinalProject\bin\Debug\net5.0\FinalProject.exe
+D:\OCBC NISP\Assignment\Final Project New\FinalProject\bin\Debug\net5.0\FinalProject.deps.json
+D:\OCBC NISP\Assignment\Final Project New\FinalProject\bin\Debug\net5.0\FinalProject.runtimeconfig.json
+D:\OCBC NISP\Assignment\Final Project New\FinalProject\bin\Debug\net5.0\FinalProject.runtimeconfig.dev.json
+D:\OCBC NISP\Assignment\Final Project New\FinalProject\bin\Debug\net5.0\FinalProject.dll
+D:\OCBC NISP\Assignment\Final Project New\FinalProject\bin\Debug\net5.0\ref\FinalProject.dll
+D:\OCBC NISP\Assignment\Final Project New\FinalProject\bin\Debug\net5.0\FinalProject.pdb
+D:\OCBC NISP\Assignment\Final Project New\FinalProject\bin\Debug\net5.0\BouncyCastle.Crypto.dll
+D:\OCBC NISP\Assignment\Final Project New\FinalProject\bin\Debug\net5.0\Google.Protobuf.dll
+D:\OCBC NISP\Assignment\Final Project New\FinalProject\bin\Debug\net5.0\Humanizer.dll
+D:\OCBC NISP\Assignment\Final Project New\FinalProject\bin\Debug\net5.0\K4os.Compression.LZ4.dll
+D:\OCBC NISP\Assignment\Final Project New\FinalProject\bin\Debug\net5.0\K4os.Compression.LZ4.Streams.dll
+D:\OCBC NISP\Assignment\Final Project New\FinalProject\bin\Debug\net5.0\K4os.Hash.xxHash.dll
+D:\OCBC NISP\Assignment\Final Project New\FinalProject\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+D:\OCBC NISP\Assignment\Final Project New\FinalProject\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\OCBC NISP\Assignment\Final Project New\FinalProject\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\OCBC NISP\Assignment\Final Project New\FinalProject\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\OCBC NISP\Assignment\Final Project New\FinalProject\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+D:\OCBC NISP\Assignment\Final Project New\FinalProject\bin\Debug\net5.0\Microsoft.OpenApi.dll
+D:\OCBC NISP\Assignment\Final Project New\FinalProject\bin\Debug\net5.0\MySql.Data.dll
+D:\OCBC NISP\Assignment\Final Project New\FinalProject\bin\Debug\net5.0\Ubiety.Dns.Core.dll
+D:\OCBC NISP\Assignment\Final Project New\FinalProject\bin\Debug\net5.0\Zstandard.Net.dll
+D:\OCBC NISP\Assignment\Final Project New\FinalProject\bin\Debug\net5.0\MySql.EntityFrameworkCore.dll
+D:\OCBC NISP\Assignment\Final Project New\FinalProject\bin\Debug\net5.0\Renci.SshNet.dll
+D:\OCBC NISP\Assignment\Final Project New\FinalProject\bin\Debug\net5.0\SshNet.Security.Cryptography.dll
+D:\OCBC NISP\Assignment\Final Project New\FinalProject\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\OCBC NISP\Assignment\Final Project New\FinalProject\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\OCBC NISP\Assignment\Final Project New\FinalProject\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\OCBC NISP\Assignment\Final Project New\FinalProject\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+D:\OCBC NISP\Assignment\Final Project New\FinalProject\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+D:\OCBC NISP\Assignment\Final Project New\FinalProject\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+D:\OCBC NISP\Assignment\Final Project New\FinalProject\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\OCBC NISP\Assignment\Final Project New\FinalProject\obj\Debug\net5.0\FinalProject.csproj.AssemblyReference.cache
+D:\OCBC NISP\Assignment\Final Project New\FinalProject\obj\Debug\net5.0\FinalProject.GeneratedMSBuildEditorConfig.editorconfig
+D:\OCBC NISP\Assignment\Final Project New\FinalProject\obj\Debug\net5.0\FinalProject.AssemblyInfoInputs.cache
+D:\OCBC NISP\Assignment\Final Project New\FinalProject\obj\Debug\net5.0\FinalProject.AssemblyInfo.cs
+D:\OCBC NISP\Assignment\Final Project New\FinalProject\obj\Debug\net5.0\FinalProject.csproj.CoreCompileInputs.cache
+D:\OCBC NISP\Assignment\Final Project New\FinalProject\obj\Debug\net5.0\FinalProject.MvcApplicationPartsAssemblyInfo.cs
+D:\OCBC NISP\Assignment\Final Project New\FinalProject\obj\Debug\net5.0\FinalProject.MvcApplicationPartsAssemblyInfo.cache
+D:\OCBC NISP\Assignment\Final Project New\FinalProject\obj\Debug\net5.0\staticwebassets\FinalProject.StaticWebAssets.Manifest.cache
+D:\OCBC NISP\Assignment\Final Project New\FinalProject\obj\Debug\net5.0\staticwebassets\FinalProject.StaticWebAssets.xml
+D:\OCBC NISP\Assignment\Final Project New\FinalProject\obj\Debug\net5.0\scopedcss\bundle\FinalProject.styles.css
+D:\OCBC NISP\Assignment\Final Project New\FinalProject\obj\Debug\net5.0\FinalProject.RazorTargetAssemblyInfo.cache
+D:\OCBC NISP\Assignment\Final Project New\FinalProject\obj\Debug\net5.0\FinalProject.dll
+D:\OCBC NISP\Assignment\Final Project New\FinalProject\obj\Debug\net5.0\ref\FinalProject.dll
+D:\OCBC NISP\Assignment\Final Project New\FinalProject\obj\Debug\net5.0\FinalProject.pdb
+D:\OCBC NISP\Assignment\Final Project New\FinalProject\obj\Debug\net5.0\FinalProject.genruntimeconfig.cache
+D:\OCBC NISP\Assignment\Final Project New\FinalProject\bin\Debug\net5.0\FinalProject.StaticWebAssets.xml
+D:\OCBC NISP\Assignment\Final Project New\FinalProject\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\OCBC NISP\Assignment\Final Project New\FinalProject\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\OCBC NISP\Assignment\Final Project New\FinalProject\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\OCBC NISP\Assignment\Final Project New\FinalProject\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\OCBC NISP\Assignment\Final Project New\FinalProject\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.UI.Views.V4.dll
+D:\OCBC NISP\Assignment\Final Project New\FinalProject\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.UI.dll
+D:\OCBC NISP\Assignment\Final Project New\FinalProject\bin\Debug\net5.0\Microsoft.Extensions.FileProviders.Embedded.dll
+D:\OCBC NISP\Assignment\Final Project New\FinalProject\bin\Debug\net5.0\Microsoft.Extensions.Identity.Core.dll
+D:\OCBC NISP\Assignment\Final Project New\FinalProject\bin\Debug\net5.0\Microsoft.Extensions.Identity.Stores.dll
+D:\OCBC NISP\Assignment\Final Project New\FinalProject\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\OCBC NISP\Assignment\Final Project New\FinalProject\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+D:\OCBC NISP\Assignment\Final Project New\FinalProject\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+D:\OCBC NISP\Assignment\Final Project New\FinalProject\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\OCBC NISP\Assignment\Final Project New\FinalProject\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+D:\OCBC NISP\Assignment\Final Project New\FinalProject\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+D:\OCBC NISP\Assignment\Final Project New\FinalProject Uji Sqlite\FinalProject\bin\Debug\net5.0\appsettings.Development.json
+D:\OCBC NISP\Assignment\Final Project New\FinalProject Uji Sqlite\FinalProject\bin\Debug\net5.0\FinalProject.StaticWebAssets.xml
+D:\OCBC NISP\Assignment\Final Project New\FinalProject Uji Sqlite\FinalProject\bin\Debug\net5.0\appsettings.json
+D:\OCBC NISP\Assignment\Final Project New\FinalProject Uji Sqlite\FinalProject\bin\Debug\net5.0\FinalProject.exe
+D:\OCBC NISP\Assignment\Final Project New\FinalProject Uji Sqlite\FinalProject\bin\Debug\net5.0\FinalProject.deps.json
+D:\OCBC NISP\Assignment\Final Project New\FinalProject Uji Sqlite\FinalProject\bin\Debug\net5.0\FinalProject.runtimeconfig.json
+D:\OCBC NISP\Assignment\Final Project New\FinalProject Uji Sqlite\FinalProject\bin\Debug\net5.0\FinalProject.runtimeconfig.dev.json
+D:\OCBC NISP\Assignment\Final Project New\FinalProject Uji Sqlite\FinalProject\bin\Debug\net5.0\FinalProject.dll
+D:\OCBC NISP\Assignment\Final Project New\FinalProject Uji Sqlite\FinalProject\bin\Debug\net5.0\ref\FinalProject.dll
+D:\OCBC NISP\Assignment\Final Project New\FinalProject Uji Sqlite\FinalProject\bin\Debug\net5.0\FinalProject.pdb
+D:\OCBC NISP\Assignment\Final Project New\FinalProject Uji Sqlite\FinalProject\bin\Debug\net5.0\BouncyCastle.Crypto.dll
+D:\OCBC NISP\Assignment\Final Project New\FinalProject Uji Sqlite\FinalProject\bin\Debug\net5.0\Google.Protobuf.dll
+D:\OCBC NISP\Assignment\Final Project New\FinalProject Uji Sqlite\FinalProject\bin\Debug\net5.0\Humanizer.dll
+D:\OCBC NISP\Assignment\Final Project New\FinalProject Uji Sqlite\FinalProject\bin\Debug\net5.0\K4os.Compression.LZ4.dll
+D:\OCBC NISP\Assignment\Final Project New\FinalProject Uji Sqlite\FinalProject\bin\Debug\net5.0\K4os.Compression.LZ4.Streams.dll
+D:\OCBC NISP\Assignment\Final Project New\FinalProject Uji Sqlite\FinalProject\bin\Debug\net5.0\K4os.Hash.xxHash.dll
+D:\OCBC NISP\Assignment\Final Project New\FinalProject Uji Sqlite\FinalProject\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\OCBC NISP\Assignment\Final Project New\FinalProject Uji Sqlite\FinalProject\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\OCBC NISP\Assignment\Final Project New\FinalProject Uji Sqlite\FinalProject\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\OCBC NISP\Assignment\Final Project New\FinalProject Uji Sqlite\FinalProject\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\OCBC NISP\Assignment\Final Project New\FinalProject Uji Sqlite\FinalProject\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.UI.Views.V4.dll
+D:\OCBC NISP\Assignment\Final Project New\FinalProject Uji Sqlite\FinalProject\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.UI.dll
+D:\OCBC NISP\Assignment\Final Project New\FinalProject Uji Sqlite\FinalProject\bin\Debug\net5.0\Microsoft.Data.Sqlite.dll
+D:\OCBC NISP\Assignment\Final Project New\FinalProject Uji Sqlite\FinalProject\bin\Debug\net5.0\Microsoft.DotNet.PlatformAbstractions.dll
+D:\OCBC NISP\Assignment\Final Project New\FinalProject Uji Sqlite\FinalProject\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+D:\OCBC NISP\Assignment\Final Project New\FinalProject Uji Sqlite\FinalProject\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\OCBC NISP\Assignment\Final Project New\FinalProject Uji Sqlite\FinalProject\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\OCBC NISP\Assignment\Final Project New\FinalProject Uji Sqlite\FinalProject\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\OCBC NISP\Assignment\Final Project New\FinalProject Uji Sqlite\FinalProject\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Sqlite.dll
+D:\OCBC NISP\Assignment\Final Project New\FinalProject Uji Sqlite\FinalProject\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+D:\OCBC NISP\Assignment\Final Project New\FinalProject Uji Sqlite\FinalProject\bin\Debug\net5.0\Microsoft.Extensions.DependencyModel.dll
+D:\OCBC NISP\Assignment\Final Project New\FinalProject Uji Sqlite\FinalProject\bin\Debug\net5.0\Microsoft.Extensions.FileProviders.Embedded.dll
+D:\OCBC NISP\Assignment\Final Project New\FinalProject Uji Sqlite\FinalProject\bin\Debug\net5.0\Microsoft.Extensions.Identity.Core.dll
+D:\OCBC NISP\Assignment\Final Project New\FinalProject Uji Sqlite\FinalProject\bin\Debug\net5.0\Microsoft.Extensions.Identity.Stores.dll
+D:\OCBC NISP\Assignment\Final Project New\FinalProject Uji Sqlite\FinalProject\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\OCBC NISP\Assignment\Final Project New\FinalProject Uji Sqlite\FinalProject\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+D:\OCBC NISP\Assignment\Final Project New\FinalProject Uji Sqlite\FinalProject\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+D:\OCBC NISP\Assignment\Final Project New\FinalProject Uji Sqlite\FinalProject\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\OCBC NISP\Assignment\Final Project New\FinalProject Uji Sqlite\FinalProject\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+D:\OCBC NISP\Assignment\Final Project New\FinalProject Uji Sqlite\FinalProject\bin\Debug\net5.0\Microsoft.OpenApi.dll
+D:\OCBC NISP\Assignment\Final Project New\FinalProject Uji Sqlite\FinalProject\bin\Debug\net5.0\MySql.Data.dll
+D:\OCBC NISP\Assignment\Final Project New\FinalProject Uji Sqlite\FinalProject\bin\Debug\net5.0\Ubiety.Dns.Core.dll
+D:\OCBC NISP\Assignment\Final Project New\FinalProject Uji Sqlite\FinalProject\bin\Debug\net5.0\Zstandard.Net.dll
+D:\OCBC NISP\Assignment\Final Project New\FinalProject Uji Sqlite\FinalProject\bin\Debug\net5.0\MySql.EntityFrameworkCore.dll
+D:\OCBC NISP\Assignment\Final Project New\FinalProject Uji Sqlite\FinalProject\bin\Debug\net5.0\SQLitePCLRaw.batteries_v2.dll
+D:\OCBC NISP\Assignment\Final Project New\FinalProject Uji Sqlite\FinalProject\bin\Debug\net5.0\SQLitePCLRaw.nativelibrary.dll
+D:\OCBC NISP\Assignment\Final Project New\FinalProject Uji Sqlite\FinalProject\bin\Debug\net5.0\SQLitePCLRaw.core.dll
+D:\OCBC NISP\Assignment\Final Project New\FinalProject Uji Sqlite\FinalProject\bin\Debug\net5.0\SQLitePCLRaw.provider.dynamic_cdecl.dll
+D:\OCBC NISP\Assignment\Final Project New\FinalProject Uji Sqlite\FinalProject\bin\Debug\net5.0\Renci.SshNet.dll
+D:\OCBC NISP\Assignment\Final Project New\FinalProject Uji Sqlite\FinalProject\bin\Debug\net5.0\SshNet.Security.Cryptography.dll
+D:\OCBC NISP\Assignment\Final Project New\FinalProject Uji Sqlite\FinalProject\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\OCBC NISP\Assignment\Final Project New\FinalProject Uji Sqlite\FinalProject\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\OCBC NISP\Assignment\Final Project New\FinalProject Uji Sqlite\FinalProject\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\OCBC NISP\Assignment\Final Project New\FinalProject Uji Sqlite\FinalProject\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+D:\OCBC NISP\Assignment\Final Project New\FinalProject Uji Sqlite\FinalProject\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+D:\OCBC NISP\Assignment\Final Project New\FinalProject Uji Sqlite\FinalProject\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+D:\OCBC NISP\Assignment\Final Project New\FinalProject Uji Sqlite\FinalProject\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+D:\OCBC NISP\Assignment\Final Project New\FinalProject Uji Sqlite\FinalProject\bin\Debug\net5.0\runtimes\alpine-x64\native\libe_sqlite3.so
+D:\OCBC NISP\Assignment\Final Project New\FinalProject Uji Sqlite\FinalProject\bin\Debug\net5.0\runtimes\linux-arm\native\libe_sqlite3.so
+D:\OCBC NISP\Assignment\Final Project New\FinalProject Uji Sqlite\FinalProject\bin\Debug\net5.0\runtimes\linux-arm64\native\libe_sqlite3.so
+D:\OCBC NISP\Assignment\Final Project New\FinalProject Uji Sqlite\FinalProject\bin\Debug\net5.0\runtimes\linux-armel\native\libe_sqlite3.so
+D:\OCBC NISP\Assignment\Final Project New\FinalProject Uji Sqlite\FinalProject\bin\Debug\net5.0\runtimes\linux-mips64\native\libe_sqlite3.so
+D:\OCBC NISP\Assignment\Final Project New\FinalProject Uji Sqlite\FinalProject\bin\Debug\net5.0\runtimes\linux-musl-x64\native\libe_sqlite3.so
+D:\OCBC NISP\Assignment\Final Project New\FinalProject Uji Sqlite\FinalProject\bin\Debug\net5.0\runtimes\linux-x64\native\libe_sqlite3.so
+D:\OCBC NISP\Assignment\Final Project New\FinalProject Uji Sqlite\FinalProject\bin\Debug\net5.0\runtimes\linux-x86\native\libe_sqlite3.so
+D:\OCBC NISP\Assignment\Final Project New\FinalProject Uji Sqlite\FinalProject\bin\Debug\net5.0\runtimes\osx-x64\native\libe_sqlite3.dylib
+D:\OCBC NISP\Assignment\Final Project New\FinalProject Uji Sqlite\FinalProject\bin\Debug\net5.0\runtimes\win-arm\native\e_sqlite3.dll
+D:\OCBC NISP\Assignment\Final Project New\FinalProject Uji Sqlite\FinalProject\bin\Debug\net5.0\runtimes\win-arm64\native\e_sqlite3.dll
+D:\OCBC NISP\Assignment\Final Project New\FinalProject Uji Sqlite\FinalProject\bin\Debug\net5.0\runtimes\win-x64\native\e_sqlite3.dll
+D:\OCBC NISP\Assignment\Final Project New\FinalProject Uji Sqlite\FinalProject\bin\Debug\net5.0\runtimes\win-x86\native\e_sqlite3.dll
+D:\OCBC NISP\Assignment\Final Project New\FinalProject Uji Sqlite\FinalProject\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\OCBC NISP\Assignment\Final Project New\FinalProject Uji Sqlite\FinalProject\obj\Debug\net5.0\FinalProject.csproj.AssemblyReference.cache
+D:\OCBC NISP\Assignment\Final Project New\FinalProject Uji Sqlite\FinalProject\obj\Debug\net5.0\FinalProject.GeneratedMSBuildEditorConfig.editorconfig
+D:\OCBC NISP\Assignment\Final Project New\FinalProject Uji Sqlite\FinalProject\obj\Debug\net5.0\FinalProject.AssemblyInfoInputs.cache
+D:\OCBC NISP\Assignment\Final Project New\FinalProject Uji Sqlite\FinalProject\obj\Debug\net5.0\FinalProject.AssemblyInfo.cs
+D:\OCBC NISP\Assignment\Final Project New\FinalProject Uji Sqlite\FinalProject\obj\Debug\net5.0\FinalProject.csproj.CoreCompileInputs.cache
+D:\OCBC NISP\Assignment\Final Project New\FinalProject Uji Sqlite\FinalProject\obj\Debug\net5.0\FinalProject.MvcApplicationPartsAssemblyInfo.cs
+D:\OCBC NISP\Assignment\Final Project New\FinalProject Uji Sqlite\FinalProject\obj\Debug\net5.0\FinalProject.MvcApplicationPartsAssemblyInfo.cache
+D:\OCBC NISP\Assignment\Final Project New\FinalProject Uji Sqlite\FinalProject\obj\Debug\net5.0\staticwebassets\FinalProject.StaticWebAssets.Manifest.cache
+D:\OCBC NISP\Assignment\Final Project New\FinalProject Uji Sqlite\FinalProject\obj\Debug\net5.0\staticwebassets\FinalProject.StaticWebAssets.xml
+D:\OCBC NISP\Assignment\Final Project New\FinalProject Uji Sqlite\FinalProject\obj\Debug\net5.0\scopedcss\bundle\FinalProject.styles.css
+D:\OCBC NISP\Assignment\Final Project New\FinalProject Uji Sqlite\FinalProject\obj\Debug\net5.0\FinalProject.RazorTargetAssemblyInfo.cache
+D:\OCBC NISP\Assignment\Final Project New\FinalProject Uji Sqlite\FinalProject\obj\Debug\net5.0\FinalProject.dll
+D:\OCBC NISP\Assignment\Final Project New\FinalProject Uji Sqlite\FinalProject\obj\Debug\net5.0\ref\FinalProject.dll
+D:\OCBC NISP\Assignment\Final Project New\FinalProject Uji Sqlite\FinalProject\obj\Debug\net5.0\FinalProject.pdb
+D:\OCBC NISP\Assignment\Final Project New\FinalProject Uji Sqlite\FinalProject\obj\Debug\net5.0\FinalProject.genruntimeconfig.cache

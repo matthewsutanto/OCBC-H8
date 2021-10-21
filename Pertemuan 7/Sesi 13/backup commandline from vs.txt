@@ -1,0 +1,287 @@
+**********************************************************************
+** Visual Studio 2019 Developer PowerShell v16.11.5
+** Copyright (c) 2021 Microsoft Corporation
+**********************************************************************
+PS D:\OCBC NISP\Pertemuan 7\Sesi 13\CoreWebApi> dotnet publish -c Release
+Microsoft (R) Build Engine version 16.11.1+3e40a09f8 for .NET
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  CoreWebApi -> D:\OCBC NISP\Pertemuan 7\Sesi 13\CoreWebApi\CoreWebApi\bin\Release\net5.0\CoreWebApi.dll
+  CoreWebApi -> D:\OCBC NISP\Pertemuan 7\Sesi 13\CoreWebApi\CoreWebApi\bin\Release\net5.0\publish\
+PS D:\OCBC NISP\Pertemuan 7\Sesi 13\CoreWebApi> docker build -t corewebapi:dev .
+[+] Building 0.0s (1/2)
+ => [internal] load build definition from Dockerfile                                                             0.0s
+ => => transferring dockerfile: 2B                                                                               0.0s
+failed to solve with frontend dockerfile.v0: failed to read dockerfile: open /var/lib/docker/tmp/buildkit-mount306381461/Dockerfile: no such file or directory
+PS D:\OCBC NISP\Pertemuan 7\Sesi 13\CoreWebApi> dir
+
+
+    Directory: D:\OCBC NISP\Pertemuan 7\Sesi 13\CoreWebApi
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        10/19/2021   3:16 PM                CoreWebApi
+-a----        10/19/2021   2:45 PM            340 .dockerignore
+-a----        10/19/2021   2:45 PM           1136 CoreWebApi.sln
+
+
+PS D:\OCBC NISP\Pertemuan 7\Sesi 13\CoreWebApi> cd corewebapi
+PS D:\OCBC NISP\Pertemuan 7\Sesi 13\CoreWebApi\corewebapi> ../
+../ : The term '../' is not recognized as the name of a cmdlet, function, script file, or operable program. Check
+the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ ../
++ ~~~
+    + CategoryInfo          : ObjectNotFound: (../:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS D:\OCBC NISP\Pertemuan 7\Sesi 13\CoreWebApi\corewebapi> cd ../
+PS D:\OCBC NISP\Pertemuan 7\Sesi 13\CoreWebApi> cd CoreWebApi
+PS D:\OCBC NISP\Pertemuan 7\Sesi 13\CoreWebApi\CoreWebApi> docker build -t corewebapi:dev .
+[+] Building 40.0s (16/16) FINISHED
+ => [internal] load build definition from Dockerfile                                                             0.0s
+ => => transferring dockerfile: 678B                                                                             0.0s
+ => [internal] load .dockerignore                                                                                0.0s
+ => => transferring context: 2B                                                                                  0.0s
+ => [internal] load metadata for mcr.microsoft.com/dotnet/sdk:5.0                                                1.0s
+ => [internal] load metadata for mcr.microsoft.com/dotnet/aspnet:5.0                                             0.0s
+ => [build 1/5] FROM mcr.microsoft.com/dotnet/sdk:5.0@sha256:1bd86365c0de18fb256bfe44e615c693d6be82cedc74a9a7c  28.3s
+ => => resolve mcr.microsoft.com/dotnet/sdk:5.0@sha256:1bd86365c0de18fb256bfe44e615c693d6be82cedc74a9a7cfb86164  0.0s
+ => => sha256:1bd86365c0de18fb256bfe44e615c693d6be82cedc74a9a7cfb86164ec9514e9 2.53kB / 2.53kB                   0.0s
+ => => sha256:ef88066c4c42d6c050c2ba81d2cd588c93792276fc7d1c2aa1349118f7863e83 105.47MB / 105.47MB              23.8s
+ => => sha256:8257c5cbf04fd66e6e98c54178f5e02e5d6ddcf3fa38d01260306ada205e7e9e 2.01kB / 2.01kB                   0.0s
+ => => sha256:3d9edf094595909cc7ee9ae416868435cb9c56cbf2f4e760cf5a95937ac62766 7.11kB / 7.11kB                   0.0s
+ => => sha256:4452e959b515a9acc0060e9539a99a563f7cd6c5815642b496993ef45af57f52 27.56MB / 27.56MB                12.1s
+ => => sha256:1ddf8e66937fdd176b884276b224b324980f323c0e87db9a71dc15910de6470c 12.69MB / 12.69MB                14.2s
+ => => extracting sha256:4452e959b515a9acc0060e9539a99a563f7cd6c5815642b496993ef45af57f52                        1.3s
+ => => extracting sha256:ef88066c4c42d6c050c2ba81d2cd588c93792276fc7d1c2aa1349118f7863e83                        3.8s
+ => => extracting sha256:1ddf8e66937fdd176b884276b224b324980f323c0e87db9a71dc15910de6470c                        0.5s
+ => [base 1/2] FROM mcr.microsoft.com/dotnet/aspnet:5.0                                                          0.0s
+ => [internal] load build context                                                                                0.3s
+ => => transferring context: 12.26MB                                                                             0.3s
+ => CACHED [base 2/2] WORKDIR /app                                                                               0.0s
+ => [final 1/2] WORKDIR /app                                                                                     0.0s
+ => [build 2/5] WORKDIR /src                                                                                     0.4s
+ => [build 3/5] COPY . .                                                                                         0.0s
+ => [build 4/5] RUN dotnet restore                                                                               4.7s
+ => [build 5/5] RUN dotnet build --no-restore -c Release -o /app                                                 2.9s
+ => [publish 1/1] RUN dotnet publish "CoreWebApi.csproj" -c Release -o /app/publish                              2.3s
+ => [final 2/2] COPY --from=publish /app .                                                                       0.0s
+ => exporting to image                                                                                           0.1s
+ => => exporting layers                                                                                          0.0s
+ => => writing image sha256:e1eee7e3bfc486a4ff8366faeb6c071af375876f2a0f1e411cdc6ba9aa75b322                     0.0s
+ => => naming to docker.io/library/corewebapi:dev                                                                0.0s
+
+Use 'docker scan' to run Snyk tests against images to find vulnerabilities and learn how to fix them
+PS D:\OCBC NISP\Pertemuan 7\Sesi 13\CoreWebApi\CoreWebApi> docker scan
+Docker Scan relies upon access to Snyk, a third party provider, do you consent to proceed using Snyk? (y/N)
+y
+Usage:  docker scan [OPTIONS] IMAGE
+
+A tool to scan your images
+
+Options:
+      --accept-license    Accept using a third party scanning provider
+      --dependency-tree   Show dependency tree with scan results
+      --exclude-base      Exclude base image from vulnerability scanning
+                          (requires --file)
+  -f, --file string       Dockerfile associated with image, provides more
+                          detailed results
+      --group-issues      Aggregate duplicated vulnerabilities and group
+                          them to a single one (requires --json)
+      --json              Output results in JSON format
+      --login             Authenticate to the scan provider using an
+                          optional token (with --token), or web base
+                          token if empty
+      --reject-license    Reject using a third party scanning provider
+      --severity string   Only report vulnerabilities of provided level
+                          or higher (low|medium|high)
+      --token string      Authentication token to login to the third
+                          party scanning provider
+      --version           Display version of the scan plugin
+"docker scan" requires exactly 1 argument
+PS D:\OCBC NISP\Pertemuan 7\Sesi 13\CoreWebApi\CoreWebApi> docker scan corewebapi
+Failed to scan image "corewebapi". Please make sure the image and/or repository exist, and that you are using the correct credentials.
+
+PS D:\OCBC NISP\Pertemuan 7\Sesi 13\CoreWebApi\CoreWebApi> docker scan CoreWebApi
+404 page not found
+
+PS D:\OCBC NISP\Pertemuan 7\Sesi 13\CoreWebApi\CoreWebApi> docker image
+
+Usage:  docker image COMMAND
+
+Manage images
+
+Commands:
+  build       Build an image from a Dockerfile
+  history     Show the history of an image
+  import      Import the contents from a tarball to create a filesystem image
+  inspect     Display detailed information on one or more images
+  load        Load an image from a tar archive or STDIN
+  ls          List images
+  prune       Remove unused images
+  pull        Pull an image or a repository from a registry
+  push        Push an image or a repository to a registry
+  rm          Remove one or more images
+  save        Save one or more images to a tar archive (streamed to STDOUT by default)
+  tag         Create a tag TARGET_IMAGE that refers to SOURCE_IMAGE
+
+Run 'docker image COMMAND --help' for more information on a command.
+PS D:\OCBC NISP\Pertemuan 7\Sesi 13\CoreWebApi\CoreWebApi> docker images
+REPOSITORY                        TAG       IMAGE ID       CREATED         SIZE
+corewebapi                        dev       e1eee7e3bfc4   8 minutes ago   213MB
+ubuntu                            latest    ba6acccedd29   3 days ago      72.8MB
+mcr.microsoft.com/dotnet/aspnet   5.0       8102e4dcab1c   6 days ago      205MB
+docker/getting-started            latest    083d7564d904   4 months ago    28MB
+PS D:\OCBC NISP\Pertemuan 7\Sesi 13\CoreWebApi\CoreWebApi> docker scan corewebapi
+Failed to scan image "corewebapi". Please make sure the image and/or repository exist, and that you are using the correct credentials.
+
+PS D:\OCBC NISP\Pertemuan 7\Sesi 13\CoreWebApi\CoreWebApi> docker run -d -p 5000:80 --name myapp corewebapi:dev
+dada06ef92eb06a15f645384f25439278b5a020736d571c5a8cca715fceb5186
+PS D:\OCBC NISP\Pertemuan 7\Sesi 13\CoreWebApi\CoreWebApi> cd ../
+PS D:\OCBC NISP\Pertemuan 7\Sesi 13\CoreWebApi> dir
+
+
+    Directory: D:\OCBC NISP\Pertemuan 7\Sesi 13\CoreWebApi
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        10/19/2021   3:16 PM                CoreWebApi
+-a----        10/19/2021   2:45 PM            340 .dockerignore
+-a----        10/19/2021   2:45 PM           1136 CoreWebApi.sln
+
+
+PS D:\OCBC NISP\Pertemuan 7\Sesi 13\CoreWebApi> git init
+Initialized empty Git repository in D:/OCBC NISP/Pertemuan 7/Sesi 13/CoreWebApi/.git/
+PS D:\OCBC NISP\Pertemuan 7\Sesi 13\CoreWebApi> heroku login
+heroku: Press any key to open up the browser to login or q to exit:
+Opening browser to https://cli-auth.heroku.com/auth/cli/browser/8962bcfe-1c55-4fa4-99e1-3ff93fa5b384?requestor=SFMyNTY.g2gDbQAAAAwxMzkuMjI4Ljk3LjRuBgAAZL2XfAFiAAFRgA.lT_m7IccvFCCs1KqHVeXIik0JTokZWgXbuDKhVaG74M
+Logging in... done
+Logged in as gregoriusmatthew4@gmail.com
+PS D:\OCBC NISP\Pertemuan 7\Sesi 13\CoreWebApi> cd .\CoreWebApi\
+PS D:\OCBC NISP\Pertemuan 7\Sesi 13\CoreWebApi\CoreWebApi> heroku container:login
+Login Succeeded
+PS D:\OCBC NISP\Pertemuan 7\Sesi 13\CoreWebApi\CoreWebApi> docker tag corewebapi:dev registry.heroku.com/demo-corewebapi-matthew/web
+PS D:\OCBC NISP\Pertemuan 7\Sesi 13\CoreWebApi\CoreWebApi> heroku container:push web -a demo-corewebapi-matthew
+=== Building web (D:\OCBC NISP\Pertemuan 7\Sesi 13\CoreWebApi\CoreWebApi\Dockerfile)
+[+] Building 0.8s (16/16) FINISHED
+ => [internal] load build definition from Dockerfile                                                             0.0s
+ => => transferring dockerfile: 678B                                                                             0.0s
+ => [internal] load .dockerignore                                                                                0.0s
+ => => transferring context: 2B                                                                                  0.0s
+ => [internal] load metadata for mcr.microsoft.com/dotnet/sdk:5.0                                                0.6s
+ => [internal] load metadata for mcr.microsoft.com/dotnet/aspnet:5.0                                             0.0s
+ => [base 1/2] FROM mcr.microsoft.com/dotnet/aspnet:5.0                                                          0.0s
+ => [internal] load build context                                                                                0.1s
+ => => transferring context: 12.26MB                                                                             0.1s
+ => [build 1/5] FROM mcr.microsoft.com/dotnet/sdk:5.0@sha256:1bd86365c0de18fb256bfe44e615c693d6be82cedc74a9a7cf  0.0s
+ => CACHED [base 2/2] WORKDIR /app                                                                               0.0s
+ => CACHED [final 1/2] WORKDIR /app                                                                              0.0s
+ => CACHED [build 2/5] WORKDIR /src                                                                              0.0s
+ => CACHED [build 3/5] COPY . .                                                                                  0.0s
+ => CACHED [build 4/5] RUN dotnet restore                                                                        0.0s
+ => CACHED [build 5/5] RUN dotnet build --no-restore -c Release -o /app                                          0.0s
+ => CACHED [publish 1/1] RUN dotnet publish "CoreWebApi.csproj" -c Release -o /app/publish                       0.0s
+ => CACHED [final 2/2] COPY --from=publish /app .                                                                0.0s
+ => exporting to image                                                                                           0.0s
+ => => exporting layers                                                                                          0.0s
+ => => writing image sha256:e1eee7e3bfc486a4ff8366faeb6c071af375876f2a0f1e411cdc6ba9aa75b322                     0.0s
+ => => naming to registry.heroku.com/demo-corewebapi-matthew/web                                                 0.0s
+=== Pushing web (D:\OCBC NISP\Pertemuan 7\Sesi 13\CoreWebApi\CoreWebApi\Dockerfile)
+Using default tag: latest
+The push refers to repository [registry.heroku.com/demo-corewebapi-matthew/web]
+cb8997caeb8e: Preparing
+5f70bf18a086: Preparing
+a4e89bf1d16c: Preparing
+d22f1b721cb0: Pushed
+05c2210a0ded: Pushed
+fcb3a39200e9: Pushed
+9203d67ebc1c: Pushed
+e81bff2725db: Pushed
+latest: digest: sha256:de68099d0f2679640a8f60a8fa225ebe99cb6f193fe789f6c4df97522eb2cb77 size: 1995
+Your image has been successfully pushed. You can now release it with the 'container:release' command.
+PS D:\OCBC NISP\Pertemuan 7\Sesi 13\CoreWebApi\CoreWebApi> heroku container:release web -a demo-corewebapi-matthew
+Releasing images web to demo-corewebapi-matthew... done
+PS D:\OCBC NISP\Pertemuan 7\Sesi 13\CoreWebApi\CoreWebApi> dotnet publish -c Release
+Microsoft (R) Build Engine version 16.11.1+3e40a09f8 for .NET
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  CoreWebApi -> D:\OCBC NISP\Pertemuan 7\Sesi 13\CoreWebApi\CoreWebApi\bin\Release\net5.0\CoreWebApi.dll
+  CoreWebApi -> D:\OCBC NISP\Pertemuan 7\Sesi 13\CoreWebApi\CoreWebApi\bin\Release\net5.0\publish\
+PS D:\OCBC NISP\Pertemuan 7\Sesi 13\CoreWebApi\CoreWebApi> docker build -t corewebapi:dev .
+[+] Building 10.4s (16/16) FINISHED
+ => [internal] load build definition from Dockerfile                                                             0.0s
+ => => transferring dockerfile: 663B                                                                             0.0s
+ => [internal] load .dockerignore                                                                                0.0s
+ => => transferring context: 2B                                                                                  0.0s
+ => [internal] load metadata for mcr.microsoft.com/dotnet/sdk:5.0                                                0.4s
+ => [internal] load metadata for mcr.microsoft.com/dotnet/aspnet:5.0                                             0.0s
+ => [build 1/5] FROM mcr.microsoft.com/dotnet/sdk:5.0@sha256:1bd86365c0de18fb256bfe44e615c693d6be82cedc74a9a7cf  0.0s
+ => [internal] load build context                                                                                0.0s
+ => => transferring context: 13.01kB                                                                             0.0s
+ => [base 1/2] FROM mcr.microsoft.com/dotnet/aspnet:5.0                                                          0.0s
+ => CACHED [build 2/5] WORKDIR /src                                                                              0.0s
+ => [build 3/5] COPY . .                                                                                         0.1s
+ => [build 4/5] RUN dotnet restore                                                                               4.5s
+ => [build 5/5] RUN dotnet build --no-restore -c Release -o /app                                                 3.0s
+ => [publish 1/1] RUN dotnet publish --no-restore -c Release -o /app                                             1.9s
+ => CACHED [base 2/2] WORKDIR /app                                                                               0.0s
+ => CACHED [final 1/2] WORKDIR /app                                                                              0.0s
+ => [final 2/2] COPY --from=publish /app .                                                                       0.0s
+ => exporting to image                                                                                           0.0s
+ => => exporting layers                                                                                          0.0s
+ => => writing image sha256:38efc3d1d899269da0597702d304aa4c9c00006db2a9e58c8c4b3cdd6dd1de8c                     0.0s
+ => => naming to docker.io/library/corewebapi:dev                                                                0.0s
+PS D:\OCBC NISP\Pertemuan 7\Sesi 13\CoreWebApi\CoreWebApi> docker run -d -p 5000:80 --name myapp corewebapi:dev
+docker: Error response from daemon: Conflict. The container name "/myapp" is already in use by container "dada06ef92eb06a15f645384f25439278b5a020736d571c5a8cca715fceb5186". You have to remove (or rename) that container to be able to reuse that name.
+See 'docker run --help'.
+PS D:\OCBC NISP\Pertemuan 7\Sesi 13\CoreWebApi\CoreWebApi> docker tag corewebapi:dev registry.heroku.com/demo-corewebapi-matthew/web
+PS D:\OCBC NISP\Pertemuan 7\Sesi 13\CoreWebApi\CoreWebApi> heroku container:push web -a demo-corewebapi-matthew
+=== Building web (D:\OCBC NISP\Pertemuan 7\Sesi 13\CoreWebApi\CoreWebApi\Dockerfile)
+[+] Building 0.4s (16/16) FINISHED
+ => [internal] load build definition from Dockerfile                                                             0.0s
+ => => transferring dockerfile: 663B                                                                             0.0s
+ => [internal] load .dockerignore                                                                                0.0s
+ => => transferring context: 2B                                                                                  0.0s
+ => [internal] load metadata for mcr.microsoft.com/dotnet/sdk:5.0                                                0.3s
+ => [internal] load metadata for mcr.microsoft.com/dotnet/aspnet:5.0                                             0.0s
+ => [base 1/2] FROM mcr.microsoft.com/dotnet/aspnet:5.0                                                          0.0s
+ => [internal] load build context                                                                                0.0s
+ => => transferring context: 13.01kB                                                                             0.0s
+ => [build 1/5] FROM mcr.microsoft.com/dotnet/sdk:5.0@sha256:1bd86365c0de18fb256bfe44e615c693d6be82cedc74a9a7cf  0.0s
+ => CACHED [base 2/2] WORKDIR /app                                                                               0.0s
+ => CACHED [final 1/2] WORKDIR /app                                                                              0.0s
+ => CACHED [build 2/5] WORKDIR /src                                                                              0.0s
+ => CACHED [build 3/5] COPY . .                                                                                  0.0s
+ => CACHED [build 4/5] RUN dotnet restore                                                                        0.0s
+ => CACHED [build 5/5] RUN dotnet build --no-restore -c Release -o /app                                          0.0s
+ => CACHED [publish 1/1] RUN dotnet publish --no-restore -c Release -o /app                                      0.0s
+ => CACHED [final 2/2] COPY --from=publish /app .                                                                0.0s
+ => exporting to image                                                                                           0.0s
+ => => exporting layers                                                                                          0.0s
+ => => writing image sha256:38efc3d1d899269da0597702d304aa4c9c00006db2a9e58c8c4b3cdd6dd1de8c                     0.0s
+ => => naming to registry.heroku.com/demo-corewebapi-matthew/web                                                 0.0s
+=== Pushing web (D:\OCBC NISP\Pertemuan 7\Sesi 13\CoreWebApi\CoreWebApi\Dockerfile)
+Using default tag: latest
+The push refers to repository [registry.heroku.com/demo-corewebapi-matthew/web]
+c144e11610b1: Preparing
+5f70bf18a086: Preparing
+a4e89bf1d16c: Preparing
+c144e11610b1: Pushed
+05c2210a0ded: Layer already exists
+fcb3a39200e9: Layer already exists
+9203d67ebc1c: Layer already exists
+e81bff2725db: Layer already exists
+e81bff2725db: Layer already exists
+latest: digest: sha256:df8826e16e8ee624de64253eb270066518f976e4245c4a37c09da7e092708d9e size: 1995
+Your image has been successfully pushed. You can now release it with the 'container:release' command.
+PS D:\OCBC NISP\Pertemuan 7\Sesi 13\CoreWebApi\CoreWebApi> heroku container:release web -a demo-corewebapi-matthew
+Releasing images web to demo-corewebapi-matthew... done
+PS D:\OCBC NISP\Pertemuan 7\Sesi 13\CoreWebApi\CoreWebApi> ^C
+PS D:\OCBC NISP\Pertemuan 7\Sesi 13\CoreWebApi\CoreWebApi>
