@@ -19,7 +19,7 @@ namespace FinalProject.Migrations
 
             modelBuilder.Entity("FinalProject.Models.PaymentDetails", b =>
                 {
-                    b.Property<int>("Id")
+                    b.Property<int>("PaymentDetailsId")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
@@ -35,7 +35,7 @@ namespace FinalProject.Migrations
                     b.Property<string>("SecurityCode")
                         .HasColumnType("text");
 
-                    b.HasKey("Id");
+                    b.HasKey("PaymentDetailsId");
 
                     b.ToTable("PaymentDetails");
                 });

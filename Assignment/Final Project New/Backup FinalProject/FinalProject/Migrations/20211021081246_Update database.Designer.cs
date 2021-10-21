@@ -3,14 +3,16 @@ using System;
 using FinalProject.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace FinalProject.Migrations
 {
     [DbContext(typeof(ApiDbContext))]
-    partial class ApiDbContextModelSnapshot : ModelSnapshot
+    [Migration("20211021081246_Update database")]
+    partial class Updatedatabase
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -19,7 +21,7 @@ namespace FinalProject.Migrations
 
             modelBuilder.Entity("FinalProject.Models.PaymentDetails", b =>
                 {
-                    b.Property<int>("Id")
+                    b.Property<int>("PaymentDetailsId")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
@@ -35,7 +37,7 @@ namespace FinalProject.Migrations
                     b.Property<string>("SecurityCode")
                         .HasColumnType("text");
 
-                    b.HasKey("Id");
+                    b.HasKey("PaymentDetailsId");
 
                     b.ToTable("PaymentDetails");
                 });
