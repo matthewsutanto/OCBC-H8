@@ -17,6 +17,8 @@ using Microsoft.AspNetCore.Identity;
 using MovieApp.Configuration;
 using System.Text;
 using MovieApp.Data;
+using Pomelo.EntityFrameworkCore.MySql;
+using MySql.Data.EntityFrameworkCore;
 
 namespace MovieApp
 {
@@ -54,6 +56,8 @@ namespace MovieApp
                 .AddEntityFrameworkStores<MovieContext>();
 
             services.Configure<JwtConfig>(Configuration.GetSection("JwtConfig"));
+            services.AddCors();
+            services.AddDbContext<MovieContext>(options => options.UseMySql(Configuration.GetConnectionString("DefaultConnection")));
             services.AddControllers();
             services.Add(new ServiceDescriptor(typeof(Data.MovieContext), new Data.MovieContext(Configuration.GetConnectionString("DefaultConnection"))));
             services.AddSwaggerGen(c =>
