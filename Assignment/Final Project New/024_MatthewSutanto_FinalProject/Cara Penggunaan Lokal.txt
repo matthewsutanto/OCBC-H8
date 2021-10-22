@@ -1,0 +1,62 @@
+1. Buka command prompt, lalu arahkan ke folder project
+2. ketik command dotnet run
+3. Buka swagger melalui link https://localhost:5001/swagger/index.html atau https://localhost:5000/swagger/index.html
+
+4. Untuk melakukan register pilih register.
+6. Masukkan dengan username,email serta password dengan format sebagai berikut.
+{
+  "username": "45matthew",
+  "email": "45matthew@example.com",
+  "password": "Pass123!"
+}
+7. Kemudian klik execute.
+
+8. Untuk melakukan login pilih login.
+9. Masukkan dengan username, serta password dengan format sebagai berikut.
+{
+  "email": "45matthew@example.com",
+  "password": "Pass123!"
+}
+10. Kemudian klik execute.
+
+11. Kemudian untuk menguji token yang ada, maka pilih modul api/RefreshToken, kemudian isi dengan format sebagai berikut.
+{
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6ImM2MTY1ZTNlLTcxZDktNDlkZS05MGQ0LWQwMjY1OTE2NWNhNSIsImVtYWlsIjoibWF0dGhldzIyQGhhY2t0aXZlOC5jb20iLCJzdWIiOiJtYXR0aGV3MjJAaGFja3RpdmU4LmNvbSIsImp0aSI6ImFhNWQ1YjJjLTJhMDUtNDNkMC04YzQ1LWUxYmJiMWVhYTNmZiIsIm5iZiI6MTYzNDg4NjAwMywiZXhwIjoxNjM0ODg3ODAzLCJpYXQiOjE2MzQ4ODYwMDN9.T5zHxQM9OHaqozXTKNUI9goh2BAxJ1xQRv8zmrrX4Ms",
+    "refreshToken": "XA1NN6EID4F2TRMWTE9S2TYIBNF31TMDB1996a1445a-41fd-48b2-a616-0406f55aefdf"
+}
+12. Kemudian klik execute.
+
+13. Lalu klik tombol authorize.
+14. Ketik Bearer, dilanjutkan dengan token yang didapat dari menu login.
+15. Lalu klik tombol authorize.
+
+16. Untuk melakukan get semua paymentdetail pilih GET api/PaymentDetail
+17. Kemudian klik execute.
+
+18. Untuk melakukan get paymentdetail by id pilih GET /api/PaymentDetail/(id)
+19. Lalu ketik id yang diinginkan
+20. Kemudian klik execute.
+
+21. Untuk melakukan post paymentdetail pilih POST api/PaymentDetail
+22. Masukkan cardOwnerName, cardNumber, expirationDate, serta securityCode dengan format sebagai berikut.
+{
+  "cardOwnerName": "Hazard",
+  "cardNumber": "4132132321",
+  "expirationDate": "2021-10-22T02:38:42.907Z",
+  "securityCode": "3213"
+}
+23. Kemudian klik execute.
+
+24. Untuk melakukan update paymentdetail pilih PUT /api/PaymentDetail/(id)
+25. Masukkan id, cardOwnerName, cardNumber, expirationDate, serta securityCode dengan format sebagai berikut.
+{
+  "paymentDetailsId" : 1,
+  "cardOwnerName": "Hazard",
+  "cardNumber": "4132132321",
+  "expirationDate": "2021-10-22T02:38:42.907Z",
+  "securityCode": "3213"
+}
+26. Kemudian klik execute.
+
+27. Untuk melakukan delete paymentdetail by id pilih DELETE api/PaymentDetail 
+28. Kemudian klik execute.

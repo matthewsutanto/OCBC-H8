@@ -1,0 +1,65 @@
+1. Buka postman.
+
+2. Kemudian masuk ke collection, lalu import collection
+3. Untuk melakukan register pilih post, lalu masukkan link berikut ini untuk melakukan register : http://final-project-matthew.herokuapp.com/api/authmanagement/register
+4. Kemudian pada body, pilih raw dan ubah tipenya menjadi JSON.
+5. Masukkan dengan username,email serta password dengan format sebagai berikut.
+{
+  "username": "45matthew",
+  "email": "45matthew@example.com",
+  "password": "Pass123!"
+}
+6. Kemudian klik send.
+
+7. Untuk melakukan login pilih post, lalu masukkan link berikut ini untuk melakukan login: http://final-project-matthew.herokuapp.com/api/authmanagement/login
+8. Kemudian pada body, pilih raw dan ubah tipenya menjadi JSON.
+9. Masukkan dengan username, serta password.
+{
+  "email": "45matthew@example.com",
+  "password": "Pass123!"
+}
+10. Kemudian klik send.
+
+11. Kemudian untuk menguji token yang ada, maka masukkan url: http://final-project-matthew.herokuapp.com/api/authmanagement/refreshtoken, kemudian isi dengan format sebagai berikut.
+{
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6ImM2MTY1ZTNlLTcxZDktNDlkZS05MGQ0LWQwMjY1OTE2NWNhNSIsImVtYWlsIjoibWF0dGhldzIyQGhhY2t0aXZlOC5jb20iLCJzdWIiOiJtYXR0aGV3MjJAaGFja3RpdmU4LmNvbSIsImp0aSI6ImFhNWQ1YjJjLTJhMDUtNDNkMC04YzQ1LWUxYmJiMWVhYTNmZiIsIm5iZiI6MTYzNDg4NjAwMywiZXhwIjoxNjM0ODg3ODAzLCJpYXQiOjE2MzQ4ODYwMDN9.T5zHxQM9OHaqozXTKNUI9goh2BAxJ1xQRv8zmrrX4Ms",
+    "refreshToken": "XA1NN6EID4F2TRMWTE9S2TYIBNF31TMDB1996a1445a-41fd-48b2-a616-0406f55aefdf"
+}
+12. Kemudian klik execute.
+
+13. Untuk melakukan get semua paymentdetail pilih get lalu masukkan link berikut ini : http://final-project-matthew.herokuapp.com/api/paymentdetail/
+14. Masuk ke menu headers, lalu ketik Authorization pada Key dan copy token dari login ke value.
+15. Kemudian klik send.
+
+16. Untuk melakukan get paymentdetail by id pilih get lalu masukkan link berikut ini : http://final-project-matthew.herokuapp.com/api/paymentdetail/(id)
+17. Masuk ke menu headers, lalu ketik Authorization pada Key dan copy token dari login ke value.
+18. Kemudian klik send.
+
+19. Untuk melakukan post paymentdetail pilih post lalu masukkan link berikut ini : http://final-project-matthew.herokuapp.com/api/paymentdetail/ 
+20. Masuk ke menu headers, lalu ketik Authorization pada Key dan copy token dari login ke value.
+21. Kemudian pada body, pilih raw dan ubah tipenya menjadi JSON.
+22. Masukkan cardOwnerName, cardNumber, expirationDate, serta securityCode dengan format sebagai berikut.
+{
+  "cardOwnerName": "Hazard",
+  "cardNumber": "4132132321",
+  "expirationDate": "2021-10-22T02:38:42.907Z",
+  "securityCode": "3213"
+}
+23. Kemudian klik send.
+
+24. Untuk melakukan update paymentdetail pilih put lalu masukkan link berikut ini : http://final-project-matthew.herokuapp.com/api/paymentdetail/(id)
+25. Masuk ke menu headers, lalu ketik Authorization pada Key dan copy token dari login ke value.
+26. Kemudian pada body, pilih raw dan ubah tipenya menjadi JSON.
+27. Masukkan id, cardOwnerName, cardNumber, expirationDate, serta securityCode dengan format sebagai berikut.
+{
+  "paymentDetailsId" : 1,
+  "cardOwnerName": "Hazard",
+  "cardNumber": "4132132321",
+  "expirationDate": "2021-10-22T02:38:42.907Z",
+  "securityCode": "3213"
+}
+28. Kemudian klik send.
+
+29. Untuk melakukan delete paymentdetail by id pilih delete lalu masukkan link berikut ini : http://final-project-matthew.herokuapp.com/api/paymentdetail/(id)
+30. Masuk ke menu headers, lalu ketik Authorization pada Key dan copy token dari login ke value.
+31. Kemudian klik send.

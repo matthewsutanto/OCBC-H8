@@ -1,0 +1,266 @@
+{
+	"info": {
+		"_postman_id": "c441d7d9-be05-46d9-aecd-c3c13cec6560",
+		"name": "NetCore",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "AuthManagementRegister(Heroku)",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"username\" : \"matthew22@hacktive8.com\",\r\n    \"email\" : \"matthew22@hacktive8.com\",\r\n    \"password\" : \"Password12345!\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://final-project-matthew.herokuapp.com/api/authmanagement/register",
+					"protocol": "http",
+					"host": [
+						"final-project-matthew",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"authmanagement",
+						"register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "AuthManagementLogin(Heroku)",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6ImRhYmYxYmM4LWNmNjEtNGIyZi05MDUzLTk0MGI2ZjYyODczNyIsImVtYWlsIjoic3dpamF5YUBoYWNrdGl2ZTguY29tIiwic3ViIjoic3dpamF5YUBoYWNrdGl2ZTguY29tIiwianRpIjoiYmMwOWI5YjctOWI3Yy00YmRiLThiN2ItODEzNGZlNGE4OTFmIiwibmJmIjoxNjM0MzE0OTE5LCJleHAiOjE2MzQzMzY1MTksImlhdCI6MTYzNDMxNDkxOX0.9uLitsq9jz6vLxz13lFLYZr8wG_2dpQ5xOv41IF85y4",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"email\" : \"matthew22@hacktive8.com\",\r\n    \"password\" : \"Password12345!\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://final-project-matthew.herokuapp.com/api/authmanagement/login",
+					"protocol": "http",
+					"host": [
+						"final-project-matthew",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"authmanagement",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "AuthManagementRefreshToken(Heroku)",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"token\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6ImM2MTY1ZTNlLTcxZDktNDlkZS05MGQ0LWQwMjY1OTE2NWNhNSIsImVtYWlsIjoibWF0dGhldzIyQGhhY2t0aXZlOC5jb20iLCJzdWIiOiJtYXR0aGV3MjJAaGFja3RpdmU4LmNvbSIsImp0aSI6ImFhNWQ1YjJjLTJhMDUtNDNkMC04YzQ1LWUxYmJiMWVhYTNmZiIsIm5iZiI6MTYzNDg4NjAwMywiZXhwIjoxNjM0ODg3ODAzLCJpYXQiOjE2MzQ4ODYwMDN9.T5zHxQM9OHaqozXTKNUI9goh2BAxJ1xQRv8zmrrX4Ms\",\r\n        \"refreshToken\": \"XA1NN6EID4F2TRMWTE9S2TYIBNF31TMDB1996a1445a-41fd-48b2-a616-0406f55aefdf\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://final-project-matthew.herokuapp.com/api/authmanagement/refreshtoken",
+					"protocol": "http",
+					"host": [
+						"final-project-matthew",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"authmanagement",
+						"refreshtoken"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Api/PaymentDetail Get(Heroku)",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6ImM2MTY1ZTNlLTcxZDktNDlkZS05MGQ0LWQwMjY1OTE2NWNhNSIsImVtYWlsIjoibWF0dGhldzIyQGhhY2t0aXZlOC5jb20iLCJzdWIiOiJtYXR0aGV3MjJAaGFja3RpdmU4LmNvbSIsImp0aSI6ImFhNWQ1YjJjLTJhMDUtNDNkMC04YzQ1LWUxYmJiMWVhYTNmZiIsIm5iZiI6MTYzNDg4NjAwMywiZXhwIjoxNjM0ODg3ODAzLCJpYXQiOjE2MzQ4ODYwMDN9.T5zHxQM9OHaqozXTKNUI9goh2BAxJ1xQRv8zmrrX4Ms",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://final-project-matthew.herokuapp.com/api/PaymentDetail/",
+					"protocol": "http",
+					"host": [
+						"final-project-matthew",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"PaymentDetail",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Api/PaymentDetail Get By Id(Heroku)",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6ImM2MTY1ZTNlLTcxZDktNDlkZS05MGQ0LWQwMjY1OTE2NWNhNSIsImVtYWlsIjoibWF0dGhldzIyQGhhY2t0aXZlOC5jb20iLCJzdWIiOiJtYXR0aGV3MjJAaGFja3RpdmU4LmNvbSIsImp0aSI6ImFhNWQ1YjJjLTJhMDUtNDNkMC04YzQ1LWUxYmJiMWVhYTNmZiIsIm5iZiI6MTYzNDg4NjAwMywiZXhwIjoxNjM0ODg3ODAzLCJpYXQiOjE2MzQ4ODYwMDN9.T5zHxQM9OHaqozXTKNUI9goh2BAxJ1xQRv8zmrrX4Ms",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://final-project-matthew.herokuapp.com/api/PaymentDetail/1",
+					"protocol": "http",
+					"host": [
+						"final-project-matthew",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"PaymentDetail",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Api/PaymentDetail Post(Heroku)",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6ImM2MTY1ZTNlLTcxZDktNDlkZS05MGQ0LWQwMjY1OTE2NWNhNSIsImVtYWlsIjoibWF0dGhldzIyQGhhY2t0aXZlOC5jb20iLCJzdWIiOiJtYXR0aGV3MjJAaGFja3RpdmU4LmNvbSIsImp0aSI6ImFhNWQ1YjJjLTJhMDUtNDNkMC04YzQ1LWUxYmJiMWVhYTNmZiIsIm5iZiI6MTYzNDg4NjAwMywiZXhwIjoxNjM0ODg3ODAzLCJpYXQiOjE2MzQ4ODYwMDN9.T5zHxQM9OHaqozXTKNUI9goh2BAxJ1xQRv8zmrrX4Ms",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"cardOwnerName\": \"Antony Martial\",\r\n  \"cardNumber\": \"334243214421\",\r\n  \"expirationDate\": \"2021-10-22T01:41:15.467Z\",\r\n  \"securityCode\": \"5412\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://final-project-matthew.herokuapp.com/api/PaymentDetail/",
+					"protocol": "http",
+					"host": [
+						"final-project-matthew",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"PaymentDetail",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Api/PaymentDetail Put(Heroku)",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6ImM2MTY1ZTNlLTcxZDktNDlkZS05MGQ0LWQwMjY1OTE2NWNhNSIsImVtYWlsIjoibWF0dGhldzIyQGhhY2t0aXZlOC5jb20iLCJzdWIiOiJtYXR0aGV3MjJAaGFja3RpdmU4LmNvbSIsImp0aSI6ImFhNWQ1YjJjLTJhMDUtNDNkMC04YzQ1LWUxYmJiMWVhYTNmZiIsIm5iZiI6MTYzNDg4NjAwMywiZXhwIjoxNjM0ODg3ODAzLCJpYXQiOjE2MzQ4ODYwMDN9.T5zHxQM9OHaqozXTKNUI9goh2BAxJ1xQRv8zmrrX4Ms",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"paymentDetailsId\": 20,\r\n  \"cardOwnerName\": \"Mason Greenwood\",\r\n  \"cardNumber\": \"334243214421\",\r\n  \"expirationDate\": \"2021-10-22T01:41:15.467Z\",\r\n  \"securityCode\": \"3213\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://final-project-matthew.herokuapp.com/api/PaymentDetail/20",
+					"protocol": "http",
+					"host": [
+						"final-project-matthew",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"PaymentDetail",
+						"20"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Api/PaymentDetail Delete(Heroku)",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6ImM2MTY1ZTNlLTcxZDktNDlkZS05MGQ0LWQwMjY1OTE2NWNhNSIsImVtYWlsIjoibWF0dGhldzIyQGhhY2t0aXZlOC5jb20iLCJzdWIiOiJtYXR0aGV3MjJAaGFja3RpdmU4LmNvbSIsImp0aSI6ImFhNWQ1YjJjLTJhMDUtNDNkMC04YzQ1LWUxYmJiMWVhYTNmZiIsIm5iZiI6MTYzNDg4NjAwMywiZXhwIjoxNjM0ODg3ODAzLCJpYXQiOjE2MzQ4ODYwMDN9.T5zHxQM9OHaqozXTKNUI9goh2BAxJ1xQRv8zmrrX4Ms",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://final-project-matthew.herokuapp.com/api/PaymentDetail/20",
+					"protocol": "http",
+					"host": [
+						"final-project-matthew",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"PaymentDetail",
+						"20"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
