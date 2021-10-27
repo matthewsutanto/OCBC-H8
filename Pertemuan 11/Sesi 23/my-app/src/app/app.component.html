@@ -1,0 +1,114 @@
+<H1>Header 1</H1>
+<app-aside (clickEventHandler) = "addCounter()" [name]="inputCounter"></app-aside>
+<app-aside (clickEventHandler) = "subCounter()" [name]="subtractCounter"></app-aside>
+<app-aside (clickEventHandler) = "resCounter()" [name]="resetCounter"></app-aside>
+<p>{{counter}} kali diklik</p>
+
+<app-header (newItemEvent)="addItemInParent($event)"></app-header>
+
+<ul>
+    <li *ngFor = "let item of items">{{item}}</li>
+</ul>
+
+<p *ngIf="isLoggedIn">You have logged in</p>
+<p *ngIf="isLoggedIn && currentUser">Hello, {{currentUser}}</p>
+
+<app-paragraph [message]="'Hello'" [isShown]="true"></app-paragraph>
+
+<div *ngFor="let message of messages">
+    <app-paragraph [message]="message" [isShown]="true"></app-paragraph>
+</div>
+
+<!-- <table border="1">
+    <tr *ngFor="let message of messages; let i = index">
+        <ng-template [ngIf]="i<1">
+            <td>{{i+1}}</td>
+            <td>{{message}}</td>
+        </ng-template>
+    </tr>
+</table> -->
+
+<table border="1">
+    <ng-template ngFor let-message [ngForOf]="messages" let-i="index">
+    <tr *ngIf="i>0">
+        <td>{{i + 1}}</td>
+        <td>{{message}}</td>
+    </tr>
+    </ng-template>
+</table>
+
+
+<h2>NgIf</h2>
+<ul *ngFor="let person of people">
+    <li *ngIf="person.country === 'UK'"
+        class="text-blue">{{person.name}} {{person.country}}
+    </li>
+    <li *ngIf="person.country === 'USA'"
+        class="text-red">{{person.name}} {{person.country}}
+    </li>
+    <li *ngIf="person.country === 'HK'"
+        class="text-green">{{person.name}} {{person.country}}
+    </li>
+    <li *ngIf="person.country !== 'HK' && person.country !== 'USA' && person.country !== 'UK'">
+        {{person.name}} {{person.country}}
+    </li>
+</ul>
+
+<h2>NgIf Template</h2>
+<ul>
+    <ng-template ngFor let-person [ngForOf]="people">
+        <ng-template [ngIf]="person.country === 'USA'">
+            <li class="text-red">
+                {{person.name}} - {{person.age}}
+            </li>
+        </ng-template>
+        <ng-template [ngIf]="person.country === 'UK'">
+            <li class="text-blue">
+                {{person.name}} - {{person.age}}
+            </li>
+        </ng-template>
+        <ng-template [ngIf]="person.country === 'HK'">
+            <li class="text-green">
+                {{person.name}} - {{person.age}}
+            </li>
+        </ng-template>
+        <ng-template [ngIf]="person.country !== 'HK'" && [ngIf]="person.country !== 'USA'" && [ngIf]="person.country !== 'HK'">
+            <li>
+                {{person.name}} - {{person.age}}
+            </li>
+        </ng-template>
+    </ng-template>
+</ul>
+
+<h2>Switch</h2>
+<ul *ngFor="let person of people" [ngSwitch]="person.country">
+    <li *ngSwitchCase="'UK'"
+        class="text-blue"> {{person.name}} {{person.country}}
+    </li>
+    <li *ngSwitchCase="'USA'"
+        class="text-red"> {{person.name}} {{person.country}}
+    </li>
+    <li *ngSwitchCase="'HK'"
+        class="text-green"> {{person.name}} {{person.country}}
+    </li>
+    <li *ngSwitchDefault>
+        {{person.name}} {{person.country}}
+    </li>
+</ul>
+
+<h2>single line</h2>
+<ul>
+    <li *ngFor="let person of people" [ngStyle]="{'color': (person.country === 'USA') ? 'red' : (person.country === 'HK') ? 'blue' : (person.country === 'MARS') ? 'green' : ''}">
+        {{person.name}}, {{person.age}}th dari {{person.country}}
+    </li>
+</ul>
+
+
+<h3>Contoh pipeline</h3>
+{{people | json}}
+
+<h3>Date</h3>
+{{currentDate | date: 'dd MMM yyyy' | uppercase}}
+
+<h3>Custom pipe</h3>
+{{23123123 | fileSize: 'GB'}}

@@ -1,0 +1,11 @@
+<H1>Header 1</H1>
+<app-aside (clickEventHandler) = "addCounter()" [name]="inputCounter"></app-aside>
+<app-aside (clickEventHandler) = "subCounter()" [name]="subtractCounter"></app-aside>
+<app-aside (clickEventHandler) = "resCounter()" [name]="resetCounter"></app-aside>
+<p>{{counter}} kali diklik</p>
+
+<app-header (newItemEvent)="addItemInParent($event)"></app-header>
+
+<ul>
+    <li *ngFor = "let item of items">{{item}}</li>
+</ul>

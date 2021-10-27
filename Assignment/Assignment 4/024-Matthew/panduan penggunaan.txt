@@ -1,0 +1,7 @@
+1. Jika ingin melakukan operasi a++, maka gunakan operasi node 024-Matthew.js 4++ pada terminal.
+2. Jika ingin melakukan operasi a--, maka gunakan operasi node 024-Matthew.js 4-- pada terminal.
+3. Jika ingin melakukan operasi a+b, maka gunakan operasi node 024-Matthew.js 4+5 pada terminal.
+4. Jika ingin melakukan operasi a-b, maka gunakan operasi node 024-Matthew.js 4-5 pada terminal.
+5. Jika ingin melakukan operasi a*b, maka gunakan operasi node 024-Matthew.js 4*5 pada terminal.
+6. Jika ingin melakukan operasi a/b, maka gunakan operasi node 024-Matthew.js 4/5 pada terminal.
+7. Jika ingin melakukan operasi a%b, maka gunakan operasi node 024-Matthew.js 4%5 pada terminal.

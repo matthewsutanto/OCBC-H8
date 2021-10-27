@@ -1,0 +1,13 @@
+jika ingin mengirim data dari parent ke child
+
+di app-component.html tambahin [name]="'Klik saya'"
+
+di aside components tambahin di import tambahin Input serta tambahin di export class Input() name='';
+
+di aside html harus tambahin {{name}}
+
+
+Sementara itu, jika ingin mengirim data dari childe ke parent :
+
+
+

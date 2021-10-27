@@ -1,2 +1,2 @@
-link github : https://git.heroku.com/final-project-matthew.git
+link github : https://github.com/matthewsutanto/OCBC-H8/tree/main/Assignment/Final%20Project%20New/024_MatthewSutanto_FinalProject
 link heroku : http://final-project-matthew.herokuapp.com/
