@@ -14,7 +14,8 @@ export class AddTodoFormComponent{
   addTodo() {
     const todo: Todo = {
       content: this.inputTodo,
-      completed: false
+      completed: false,
+      isShown: true
     };
 
     this.newTodoEvent.emit(todo)

@@ -11,18 +11,19 @@ export class TodoListComponent implements OnInit {
   constructor() { }
   
   todos:Todo[]=[];
-  isShown:boolean=true;
   todoStr:string="";
 
   ngOnInit(): void {
     this.todos = [
       {
         content: "First todo",
-        completed: false
+        completed: false,
+        isShown:true
       },
       {
         content: "Second todo",
-        completed: false
+        completed: false,
+        isShown:true
       }
     ]
   }
@@ -47,22 +48,22 @@ export class TodoListComponent implements OnInit {
     }
   }
 
-  showList(){
-    this.isShown = true
-  }
+  // showList(){
+  //   this.isShown = true
+  // }
 
-  hideList(){
-    this.isShown = false
-  }
+  // hideList(){
+  //   this.isShown = false
+  // }
 
-  toggleUpdate(todo: Todo) {
+  toggleUpdate(todo: Todo, i:number) {
     this.todoStr = todo.content
-    this.isShown = false
+    this.todos[i].isShown = false
     console.log(todo.content)
   }
   
-  updateDone() {
-    this.isShown = true
+  updateDone(i:number) {
+    this.todos[i].isShown = true
   }
   
 }
